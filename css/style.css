@@ -1,0 +1,24 @@
+.lightBox {
+  width: 50%;
+  height: 400px;
+  background-image: url(../imgs/work-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 767px) {
+  .lightBox {
+    width: 95%;
+  }
+}
+i {
+  cursor: pointer;
+}
+.item img {
+  cursor: pointer;
+}
+@media screen and (max-width: 991px) {
+  .item-caption {
+    font-size: 9px;
+  }
+}
